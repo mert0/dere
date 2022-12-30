@@ -1,0 +1,69 @@
+<html>
+	<head>
+		<title>Web sitem</title>
+		<link rel="stylesheet" href="../css/style.css">
+		<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+        </script>
+	</head>
+	<body onLoad="MM_preloadImages('rova2.png','agridagi.jpg')">
+	<div class="container">
+	  <div class="navbar">
+	    <div class="logo"> <a href='#'>HAKKIMIZDA</a> </div>
+	    <ul>
+	      <li><a href="../anasayfa.html">Ana Sayfa</a></li>
+	      <li><a href='hakkimizda.html' class='active' >Hakkımızda</a></li>
+	      <li><a href='iletisim.html' >İletişim</a></li>
+	      <li><a href='#' >Hizmet</a></li>
+        </ul>
+      </div>
+      <div id="anadiv">
+        <div id="hresim"></div>
+        <div id="hyazi">
+          <p align="center"><strong><em>-Neden Dağ Araştırıyorum?</em></strong></p>
+          <p align="center"><strong><em>-Neden Dağlar Senin İçin Önemli?</em></strong></p>
+          <p align="center">Ağaç ormanları, dağın bir yanında bulunan, ağaçlarla nemlenen, eşsiz ekosistem ormanlardır. Çok uzun dağlar buz ya da karla örtülü olabilirler. </p>
+        </div>
+        <div id="htablo">
+          <form name="form1" method="post" action="">
+            <table width="982" height="350" border="1">
+              <tr>
+                <th width="287" height="67" scope="col">İLETİŞİM</th>
+                <th width="380" rowspan="2" scope="col"><p>Hakkımda Bunlardır :)</p>
+                  <p>&nbsp;</p>
+                  <p>&nbsp;</p>
+                  <p>Aklıma Hiç Bir Şey Gelmedi İçin Böyle</p>
+                <p>;)</p></th>
+                <th width="293" scope="col">DAĞ</th>
+              </tr>
+              <tr>
+                <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','../resim/rova2.png',1)"><img src="../resim/rova1.png" width="250" height="141" id="Image1"></a></td>
+                <td><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../resim/agridagi.jpg',1)"><img src="../resim/erciyes.jpg" width="250" height="250" id="Image2"></a></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+      </div>
+      
+	</div>
+	</body>
+</html>

@@ -1,0 +1,489 @@
+@impont url('https://font.googleapis.com/css2?family=Roboto:wghtQ100&display=swap');
+*
+{
+	margin:0;
+	padding:0;
+}
+#resim {
+	
+	height: 150px;
+	width: 200px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-radius: 20px;
+}
+
+.container
+{
+	background: url(../resim/arka.jpg) no-repeat center center fixed;
+	webkit-background-size: cover;
+	moz-background-size: cover;
+	background-size: cover;
+	background-size: cover;
+}
+.container .navbar
+{
+	width:100%;
+	height: 80px;
+	background:rgb(94, 94, 228);
+}
+.navbar .logo
+{
+	display:inline-block;
+	margin-left:50px;
+	margin-top:20px;
+}
+.navbar .logo a
+{
+	text-decoration:none;
+	font-size:30px;
+	font-family:sans-serif;
+	color:white;
+}
+.navbar ul
+{
+	float:right;
+	margin-right:20px
+}
+.navbar ul li
+{
+	list-style:none;
+	display:inline-block;
+	margin:0 8px;
+	line-height:80px;
+}
+.navbar ul li a
+{
+	color:white;
+	text-decoration:none;
+	font-size:20px;
+	padding:6px 13px;
+	font-family:Roboto;
+	transition:.5sn;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover
+{
+	background:#ff6e00;
+	border-radius:2px;
+}
+.container1 .center
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: sans-serif;
+	user-select: none;
+}
+.center h1
+{
+	color:black;
+	font-size:70px;
+	font-weight:bold;
+	width:900px;
+	text-align:center;
+}
+.center h2
+{
+	color:black;
+	font-size:50px;
+	font-weight:bold;
+	width:800px;
+	margin-top:10px;
+	text-align:center;
+}
+.center .buttons
+{
+	margin:35px 280px;
+}
+.buttons button
+{
+	height:50px;
+	width:150px;
+	font-size:18px;
+	font-weight:bold;
+	color:#ffb3b3;
+	background:rgb(207,96,88);
+	border:solid 1px red;
+	cursor:pointer;
+	outline:none;
+	border-radius:25px;
+	transition:.5s;
+}
+.buttons button:hover
+{
+background:#fff;
+}
+#anadiv {
+	height: 1000px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #000;
+	background-color: #999;
+	border-radius: 20px;
+	margin-top: 80px;
+}
+#anadiv2 {
+	height: 2000px;
+	width: 1330px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #000;
+	background-color: #999;
+	border-radius: 20px;
+	margin-top: 80px;
+}
+#icerikler {
+	background-color: #FFFFFF;
+	height: 1000px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #000;
+	border-radius: 25px;
+}
+.iceuk {
+	height: 850px;
+	width: 1000px;
+	border: 1px solid #000;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 20px;
+	background-color: #FFF;
+	margin-top: 15px;
+	font-size: 9px;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	line-height: normal;
+	font-style: italic;
+}
+.container .iceuk strong {
+	font-size: 24px;
+}
+.container .iceuk p strong {
+	text-align: justify;
+}
+.container .iceuk p strong {
+	text-align: right;
+
+
+
+}
+#yazi {
+	height: 150px;
+	width: 150px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 5px;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 200px;
+	font-style: italic;
+	float: left;
+}
+
+#anadiv1 {
+	height: 750px;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #000;
+	background-color: #999;
+	border-radius: 20px;
+	margin-top: 80px;
+}
+#resim {
+	float: left;
+	height: 700px;
+	width: 252px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 30px;
+	border: 1px solid #000;
+	border-radius: 0px 0px 15px 15px;
+	background-repeat: no-repeat;
+}
+#yazi2 {
+	height: 400px;
+	width: 250px;
+	margin-top: 10px;
+}
+
+
+
+#resim2 {
+	float: left;
+	height: 700px;
+	width: 252px;
+	margin-top: 10px;
+	margin-right: 40px;
+	border: 1px solid #000;
+	border-radius: 0px 0px 15px 15px;
+	margin-left: 40px;
+}
+
+#resim3 {
+	float: left;
+	height: 700px;
+	width: 253px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	background-repeat: no-repeat;
+	border-radius: 0px 0px 15px 15px;
+	border: 1px solid #333;
+}
+#agridagi {
+	height: 450px;
+	width: 250px;
+	margin-top: 10px;
+}
+
+
+#erciyesy {
+	height: 480px;
+	width: 240px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+#icerikler {
+	height: 250px;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#yazi {
+	height: 250px;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solide #000;
+}
+#agridagi {
+	height: 480px;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#agriy {
+	height: 500px;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #ffffff;
+    background-color: #0b8bf4;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#iletisim{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.konteyner{
+    width: 80%;
+    margin: 0 auto;
+}
+.title{
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.iletisim-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.devamsolu{
+    width: 40%;
+    padding: 3rem;
+}
+.devamust{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ffffff;
+}
+.icerikogesi{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.icerikogesi i{
+    color: #ffffff;
+    padding: 0.7rem;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: all 0.4s ease;
+}
+.icerikogesi:hover i{
+    background-color: #ffffff;
+    color: #0b8bf4;
+}
+.icerikogesi a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.devam-alt{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.devam-alt a{
+    color: #ffffff;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(143, 194, 236);
+    border-radius: 50%;
+}
+.devam-alt a:hover{
+    color: rgb(143, 194, 236);
+    background-color: #ffffff;
+}
+
+
+.devam-hakki{
+    width: 60%;
+    padding: 3rem;
+}
+.devam-hakki form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.devam-hakki form input, textarea, button{
+    width: 100%;
+    margin: 1rem 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #ffffff;
+    color: #ffffff; 
+    transition: all 0.4s ease;
+}
+.devam-hakki form button{
+    background-color: #ffffff;
+    color: rgb(143, 194, 236);
+    cursor: pointer;
+}
+.devam-hakki form button:hover{
+    background-color: rgb(143, 194, 236);
+    color: #ffffff;
+}
+.devam-hakki form input:hover, textarea:hover{
+    color: rgb(143, 194, 236);
+    background-color: #ffffff;
+}
+.devam-hakki form input:focus, textarea:focus{
+    color: rgb(143, 194, 236);
+    background-color: #ffffff;
+}
+#hresim {
+	background-image: url(../resim/daglllar.jpg);
+	float: left;
+	height: 300px;
+	width: 700px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid #000;
+	border-radius: 15px;
+}
+
+#hyazi {
+	float: left;
+	height: 300px;
+	width: 250px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 1px solid #000;
+	border-radius: 15px;
+}
+#htablo
+{
+	float: left;
+	height: 400px;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 15px;
+}
+#resim4 {
+	float: left;
+	height: 700px;
+	width: 502px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 1px solid #000;
+	border-radius: 0px 0px 15px 15px;
+	background-repeat: no-repeat;
+}
+#anresim {
+	height: 400px;
+	width: 800px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#asa {
+	height: 400px;
+	width: 970px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+#resim5 {
+	float: left;
+	height: 700px;
+	width: 800px;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border: 1px solid #000;
+	border-radius: 0px 0px 15px 15px;
+	background-repeat: no-repeat;
+}
+#resim6 {
+	float: left;
+	height: 700px;
+	width: 252px;
+	margin-top: 10px;
+	margin-right: 40px;
+	margin-left: 40px;
+	border: 1px solid #000;
+	border-radius: 0px 0px 15px 15px;
+	background-repeat: no-repeat;
+}
+.navbar{
+	position:fixed; top:0px; left:0px; right:0px; 
+    height:70px; background:rgba(,,,0.8);
+}
